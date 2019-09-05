@@ -1,0 +1,50 @@
+{
+  "homepage": "https://zol22.github.io/app",
+  "name": "react-tutorial",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/emoji-mart": "^2.8.4",
+    "@types/react-dom": "^16.9.0",
+    "@types/webscopeio__react-textarea-autocomplete": "^2.3.0",
+    "@webscopeio/react-textarea-autocomplete": "^4.6.1",
+    "contenteditable": "^0.3.0",
+    "emoji-mart": "^2.11.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.9.0-a",
+    "react-contenteditable": "^3.3.2",
+    "react-dom": "^16.9.0",
+    "react-feather": "^2.0.3",
+    "react-giphy-component": "^1.0.5",
+    "react-giphy-select": "^1.0.3",
+    "react-input-emoji": "^1.0.7",
+    "react-scripts": "3.1.1",
+    "semantic-ui-react": "^0.88.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
+  }
+}
